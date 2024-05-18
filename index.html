@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Weather App</title>
+</head>
+
+<body>
+
+  <div class=" w-full min-h-screen mx-auto border-2 bg-neutral-800 text-white px-4">
+    <div class="max-w-sm mx-auto">
+      <form onsubmit="handleSearch(event)" class="w-full flex gap-4 justify-center py-4">
+        <input class="py-1 px-3 border-purple-700 outline-none border rounded-lg w-full text-neutral-800" type="text"
+          name="keyword" placeholder="search">
+        <input type="submit" class="bg-purple-700 text-white font-semibold px-3 py-2 rounded-lg" value="Search">
+      </form>
+      <div id="searchResult">
+      </div>
+      <div id="screen">
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="./app/index.js"></script>
+</body>
+
+</html>
