@@ -96,7 +96,7 @@ const showWeatherDetails = (id) => {
           <p>${data?.wind_speed}</p>
         </div>
         <div class="flex justify-between">
-          <p>Sensaco termica</p>
+          <p>Weather</p>
           <p>${data?.weather_description}</p>
         </div>
       </div>`
